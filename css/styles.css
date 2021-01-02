@@ -1,0 +1,154 @@
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Audiowide', bold;
+
+}
+
+
+p {
+  color: #8f8f8f;
+}
+
+body {
+  font-family: 'Nova Flat', cursive;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15% ;
+}
+
+/* headings */
+.ppalheading{
+  font-family: 'Audiowide';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem
+}
+
+/* title section */
+#title {
+  background-color: #fad0c4;
+  background-image: linear-gradient(0deg, #fff 0%, #ff4c68 15%);
+
+    text-align: left;
+
+}
+
+/* buttons */
+.downloadbutton {
+  margin: 5% 3% 5% 0
+}
+
+/* title image */
+.titleimg {
+  position: absolute;
+  width: 20%;
+  margin-left: 10%;
+  transform: rotate(20deg);
+}
+#title .container-fluid{
+   padding: 3% 15% 7%;
+}
+/* features section */
+#features {
+  position: relative;
+
+
+  background-color: #fff;
+  background-image: linear-gradient(0deg, #ef8172 0%, #fff 20%);
+
+}
+
+.featuretitle{font-size: 1.5rem;
+}
+
+.featuresicons {
+  color: #ef8172;
+  margin: 5%;
+}
+
+.featuresicons:hover {
+  color: #ff4c68;
+}
+.whitesection{  color: #000;}
+.colorsection{  color: #fff;}
+/* testimonial section */
+#testimonials {
+  background-color: #fad0c4;
+  background-image: linear-gradient(0deg, #fad0c4 0%, #ef8172 50%);
+
+}
+
+.testimonialimg {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+.testimonial-text{font-size: 2.5rem;
+  line-height: 1.5;}
+
+
+#press {
+  background-color: #fff;
+  background-image: linear-gradient(180deg, #fad0c4 0%, #fff 80%);
+
+  padding-bottom: 4%
+}
+
+.img-press {
+  width: 10%;
+  margin: 20px 20px 15px
+}
+
+#pricing {
+  padding: 100px;
+  background-color: #fff;
+  background-image: linear-gradient(0deg, #ff4c68 0%, #fff 20%);
+}
+.pricetxt {font-size: 2.5rem;
+  line-height: 1.5;}
+.pricingcard {
+  padding: 3% 2% 5%;
+}
+ /* cta section */
+#cta {
+  background-color: #fff;
+  background-image: linear-gradient(0deg, #fff 0%, #ff4c68 30%);
+}
+
+
+ /* footer section */
+
+.iconfooter {
+  margin: 20px 10px;
+}
+@media (max-width:1005px) {
+  .titleimg {
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+  }
+
+  #title {
+     ign: center;
+  }
+}
